@@ -1,5 +1,7 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <title>YouTube video player page</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,8 +13,73 @@
     <header>
       <h1>You Tube</h1>
     </header>
-    <main>
-      <div></div>
-    </main>
+    <div class="container">
+      <div class="main-video-container">
+        <iframe
+          loop
+          controls
+          class="main-video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/YXhIaWU3kBg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+
+        <h3 class="main-vid-title">Ist video</h3>
+      </div>
+
+      <div class="video-list-container">
+        <div class="list active">
+          <iframe
+            loop
+            controls
+            class="main-video"
+            width="360"
+            height="100"
+            src="https://www.youtube.com/embed/YXhIaWU3kBg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">2nd video</h3>
+        </div>
+
+        <div class="list">
+          <iframe
+            loop
+            controls
+            class="main-video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/YXhIaWU3kBg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">3rd video</h3>
+        </div>
+
+        <div class="list">
+          <iframe
+            loop
+            controls
+            class="main-video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/YXhIaWU3kBg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">4th video</h3>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
